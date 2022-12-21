@@ -1,0 +1,94 @@
+.home {
+  height: 400px;
+  color: white;
+  margin-left: 200px;
+}
+
+.home-content {
+  padding: 10px;
+  margin-top: 120px;
+}
+
+.home-content h2 {
+  margin-top: 20px;
+  color: yellowgreen;
+}
+
+.action-button {
+  display: flex;
+}
+
+.hire-me-btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #ff8546;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.hire-me-btn:hover {
+  background-color: #f5f5f54b;
+  width: 200px;
+  color: #ff8546;
+  transition: 0.3s;
+  border: 1px solid #ff8546;
+}
+
+.getResume-btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 12px;
+  border: 2px solid yellowgreen;
+  font-size: 18px;
+}
+
+.getResume-btn:hover {
+  width: 200px;
+  color: #ff8546;
+  transition: 0.3s;
+  border: 1px solid white;
+}
+
+.getResume-btn a {
+  text-decoration: none;
+  color: #ff8546;
+}
+
+.themeChange {
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  top: 50vh;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.themeChange svg {
+  fill: var(--bs-gray-800);
+}
+
+@media (max-width: 1023px) {
+  .home {
+    margin-left: 0;
+  }
+
+  .themeChange {
+    display: none;
+  }
+}

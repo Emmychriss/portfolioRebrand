@@ -1,0 +1,45 @@
+.workExperience-section {
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.workExperience-title {
+  margin-bottom: 50px;
+}
+
+.workExperience-title h5 {
+  text-align: center;
+}
+
+.techSkills p {
+  background-color: #282828;
+  border-radius: 90px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.techSkills p:hover {
+  background-color: #202020;
+  cursor: pointer;
+}
+
+.dateClass {
+  color: black;
+}
+
+#dark .dateClass {
+  color: white;
+}
+
+@media (max-width: 1023px) {
+  .workExperience-section {
+    margin-left: 0;
+  }
+
+  .dateClass {
+    color: white;
+    text-decoration: underline;
+  }
+}

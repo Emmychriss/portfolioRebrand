@@ -1,0 +1,104 @@
+.contact-section {
+  margin-left: 300px;
+  height: 95vh;
+}
+
+.contact-form-main {
+  margin-top: 20px;
+}
+
+.contact-title {
+  text-align: center;
+  margin: 50px;
+}
+
+#dark .img-and-form {
+  background-color: #4a235a;
+  transition: 1s;
+}
+
+.contact-form-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form-image img {
+  height: 600px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact-form input {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#dark .contact-form input {
+  background-color: #4a235a;
+  transition: 1s;
+  color: white;
+  border: 2px solid rgb(110, 110, 21);
+}
+
+.contact-form textarea {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#dark .contact-form textarea {
+  background-color: #4a235a;
+  transition: 1s;
+  color: white;
+  border: 2px solid rgb(110, 110, 21);
+}
+
+.select-dropDown {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+#dark .select-dropDown {
+  background-color: #4a235a;
+  transition: 1s;
+  border: 2px solid rgb(110, 110, 21);
+  color: white;
+}
+
+.submit-btn {
+  margin-bottom: 50px;
+}
+
+.submit-btn p {
+  background-color: #6e2c0d;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 35px;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}
+
+.submit-btn p:hover {
+  background-color: #7c3412;
+  transition: 1s;
+}
+
+@media (max-width: 1023px) {
+  .contact-section {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,92 @@
+.navbar-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  color: white;
+  background-color: #e67f24f8;
+  padding: 5px;
+  transition: 1s;
+}
+
+#dark .navbar-header {
+  background-color: #964b00;
+}
+
+.navbar-header p svg {
+  margin-left: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  height: auto;
+}
+
+.navbar-header header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-header .toggleSwitch {
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  height: auto;
+}
+
+.nav-mobile {
+  height: 60vh;
+  margin-top: 30px;
+  transform-origin: top center;
+  margin-top: 10px;
+  transition: 1s;
+  overflow-y: scroll;
+}
+
+.nav-mobile ul li svg {
+  margin-right: 10px;
+}
+
+.nav-mobile ul li {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 35px;
+  transform-origin: top;
+  animation: translateX 350ms ease-in-out forwards;
+}
+
+@keyframes translateX {
+  0% {
+    opacity: 0;
+    transform: translateX(90px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.nav-mobile ul li a {
+  text-decoration: none;
+}
+
+.nav-item-mobile .active {
+  color: rgb(88, 112, 39);
+}
+
+#dark .nav-item-mobile .active {
+  color: rgb(169, 248, 11);
+}
+
+@media (min-width: 1023px) {
+  nav {
+    display: none;
+  }
+}

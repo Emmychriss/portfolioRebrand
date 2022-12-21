@@ -1,0 +1,84 @@
+.projectList {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.4);
+}
+
+#dark .projectList {
+  background-color: #4a235a;
+  transition: 1s;
+}
+
+.projectList:hover {
+  border-left: 5px solid #616a6b;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.projectList-active {
+  border-left: 5px solid #616a6b;
+}
+
+.projectList-active:hover {
+  animation: bump 300ms ease-in;
+}
+
+@keyframes bump {
+  0% {
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  100% {
+  }
+}
+
+.description {
+  margin: 5px;
+  transition: 1s;
+}
+
+.title-and-CollapseBtn {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.tech-used-in-project {
+  margin-top: 20px;
+  margin: 5px;
+}
+
+.tech-used-in-project p {
+  background-color: #616a6b;
+  border-radius: 90px;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+.liveDemo-btn {
+  margin: 5px;
+  border-radius: 90px;
+  background-color: #2f6755;
+  width: fit-content;
+  padding: 3px;
+}
+
+.liveDemo-btn:hover {
+  background-color: #397a66;
+  transition: 0.5s;
+}
+
+.liveDemo-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}

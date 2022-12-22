@@ -27,7 +27,7 @@ const NavbarMobileView = (props) => {
       <nav className="container-fluid navbar-header">
         <header>
           <p>
-            <GiHamburgerMenu size={30} onClick={toggleNavHandler} />
+            <GiHamburgerMenu size={25} onClick={toggleNavHandler} />
           </p>
 
           <div className="toggleSwitch">

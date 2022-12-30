@@ -11,30 +11,30 @@ import { MdGroupWork } from "react-icons/md";
 const WorkExperience = () => {
   const data = [
     {
-      orgName: "Google",
-      position: "Full stack developer",
+      orgName: "Algorism Ltd.",
+      position: "Front-end dev. Intern",
       description:
-        "I wrote a lot of code and data manipulations for several use-cases",
+        "I worked with the development team, testing and sanity checks, bug fixes and UI improvement",
       techSkills: [
         {
-          techName: "Node JS",
+          techName: "React Js",
         },
         {
-          techName: "Express JS",
+          techName: "Express Js",
         },
         {
           techName: "UI/UX",
         },
       ],
-      year: "2019-2020",
+      year: "2022-date",
       color: "#E67E24",
     },
 
     {
-      orgName: "Amazon",
-      position: "Front end developer",
+      orgName: "HTS",
+      position: "IT support",
       description:
-        "I was actively involved with building the e-commerce website for users and good UX",
+        "I was actively involed with self learning processes, attended meet standups, added new UI features on enterprise platforms at that moment",
       techSkills: [
         {
           techName: "React JS",
@@ -46,27 +46,27 @@ const WorkExperience = () => {
           techName: "QA Testing",
         },
       ],
-      year: "2016-2018",
+      year: "2021",
       color: "#717D7E",
     },
 
     {
-      orgName: "Instagram",
-      position: "back end developer",
+      orgName: "Word Alive Schools",
+      position: "Senior Level Science Teacher",
       description:
-        "We designed and implemented new variety of instagram interfaces",
+        "I taught school pupils with alignment to science related subjects",
       techSkills: [
         {
-          techName: "Firebase",
+          techName: "Maths",
         },
         {
-          techName: "Angular JS",
+          techName: "Physics",
         },
         {
-          techName: "UI/UX",
+          techName: "Chemistry",
         },
       ],
-      year: "2014-2016",
+      year: "2017-2020",
       color: "#9B59B6",
     },
   ];

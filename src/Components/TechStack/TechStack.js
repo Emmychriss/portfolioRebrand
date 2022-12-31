@@ -5,11 +5,11 @@ import { Fade } from "react-reveal";
 const TechStack = () => {
   const data = [
     {
-      name: "Front-end developer",
+      name: "Front-end dev.",
       color: "#F0B041",
     },
     {
-      name: "React js",
+      name: "React Js",
       color: "#68D68D",
     },
     {
@@ -17,27 +17,19 @@ const TechStack = () => {
       color: "#7D3C98",
     },
     {
-      name: "Typescript",
-      color: "#76D7C4",
-    },
-    {
-      name: "SQL",
+      name: "SQL/Profiler",
       color: "#6E2C0D",
     },
     {
-      name: "mySQL server",
+      name: "mySQL Server",
       color: "#F1C410",
     },
     {
-      name: "Node js",
-      color: "#CD6155",
-    },
-    {
-      name: "Next js",
+      name: "Next Js",
       color: "#DC7633",
     },
     {
-      name: "Express js",
+      name: "Express Js",
       color: "#3F80BA",
     },
     {

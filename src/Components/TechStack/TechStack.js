@@ -45,7 +45,7 @@ const TechStack = () => {
       color: "#AF7AC5",
     },
   ];
-  const [loadMoreTechStack, setLoadMoreTechStack] = useState(6);
+  const [loadMoreTechStack, setLoadMoreTechStack] = useState(3);
   const loadMore = () => {
     setLoadMoreTechStack((prev) => prev + 3);
   };

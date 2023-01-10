@@ -87,7 +87,7 @@ const Project = () => {
       name: "Food Order App",
       description:
         "This is a dummy application that enables users to select from available foods before ordering",
-      projectLink: "",
+      projectLink: "https://order-emeals.netlify.app/",
       techUsed: [
         {
           techName: "ReactJS",

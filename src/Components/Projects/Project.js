@@ -108,7 +108,7 @@ const Project = () => {
       name: "Portfolio Project",
       description:
         "My very own portfolio project inclusive is part of projects which have been up my sleeve!",
-      projectLink: "",
+      projectLink: "https://emmanuelnduka.netlify.app",
       techUsed: [
         {
           techName: "ReactJS",
